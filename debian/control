@@ -1,0 +1,31 @@
+Source: premailer
+Maintainer: Peter Bengtsson <mail@peterbe.com>
+Section: python
+Priority: optional
+Build-Depends: python-setuptools (>= 0.6b3), python-all (>= 2.6.6-3), debhelper (>= 7)
+Standards-Version: 3.9.1
+
+Package: python-premailer
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+Description: Turns CSS blocks into style attributes
+ premailer
+ =========
+ .
+ [![Travis](https://travis-ci.org/peterbe/premailer.png?branch=master)](https://travis-ci.org/peterbe/premailer)
+ .
+ .
+ Turns CSS blocks into style attributes
+ --------------------------------------
+ .
+ When you send HTML emails you can't used style tags but instead you
+ have to put inline `style` attributes on every element. So from this::
+ .
+         <html>
+         <style type="text/css">
+         h1 { border:1px solid black }
+         p { color:red;}
+         </style>
+         <h1 style="font-weight:bolder">Peter</h1>
+         <p>Hej</p>
+         </html>

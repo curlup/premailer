@@ -1,0 +1,17 @@
+premailer (1.4.2+okm) unstable; urgency=low
+
+  * our fixes
+
+ -- Nikolay Sivko <n.sivko@gmail.com>  Wed, 09 Apr 2014 11:19:47 +0400
+
+premailer (1.4.1-2) unstable; urgency=low
+
+  * okm build
+
+ -- Nikolay Sivko <n.sivko@gmail.com>  Mon, 07 Apr 2014 14:32:50 +0400
+
+premailer (1.4.1-1) unstable; urgency=low
+
+  * source package automatically created by stdeb 0.6.0+git
+
+ -- Peter Bengtsson <mail@peterbe.com>  Mon, 07 Apr 2014 14:32:44 +0400
